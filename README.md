@@ -1,5 +1,22 @@
 # The Power of Prolog
 
+## Epub version
+
+We are using [ebook-convert](https://manual.calibre-ebook.com/generated/en/ebook-convert.html), so first you need to [install calibre](https://calibre-ebook.com/download) and then run the following command from project root:
+
+```bash
+cd prolog
+ebook-convert prolog.html prolog.epub --chapter-mark "none" --page-breaks-before "/" --flow-size 0  --level1-toc '//h:h1' --level2-toc '//h:h2'
+```
+
+To get a pdf, then do:
+
+```bash
+ebook-convert prolog.epub prolog.pdf --chapter-mark "none" --pdf-page-margin-top 20 --pdf-page-margin-bottom 20
+```
+
+See https://github.com/triska/the-power-of-prolog/issues/3#issuecomment-466643279
+
 ## Introduction to modern Prolog
 
 Prolog is a **programming language** that is rooted in
