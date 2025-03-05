@@ -2,6 +2,8 @@
 
 ## Epub version
 
+The epub of the version on master is [here](./prolog/prolog.epub) if you just want to direct download.
+
 We are using [ebook-convert](https://manual.calibre-ebook.com/generated/en/ebook-convert.html), so first you need to [install calibre](https://calibre-ebook.com/download) and then run the following command from project root:
 
 ```bash
